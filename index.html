@@ -104,7 +104,7 @@ var _hmt = _hmt || [];
                 <div class="footer-info">
                     <h3>Contact Us</h3>
                     <p>Rm A, 8/F., Yee Tak Fty Bldg., 42 Wing Hong St., Lai Chi Kok</p>
-                    <p><a href="mailto:cs@camehk.com">cs@camehk.com</a></p>
+                    <p><span class="email-address" onclick="copyToClipboard('cs@camehk.com')" title="Click to copy email">cs@camehk.com</span></p>
                 </div>
                 <div class="footer-links">
                     <a href="index.html">Home</a>
@@ -115,5 +115,39 @@ var _hmt = _hmt || [];
             </div>
         </div>
     </footer>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                // Show a temporary message
+                const originalText = event.target.textContent;
+                event.target.textContent = 'Email copied!';
+                event.target.style.color = '#28a745';
+                
+                setTimeout(function() {
+                    event.target.textContent = originalText;
+                    event.target.style.color = '';
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Could not copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                const originalText = event.target.textContent;
+                event.target.textContent = 'Email copied!';
+                event.target.style.color = '#28a745';
+                
+                setTimeout(function() {
+                    event.target.textContent = originalText;
+                    event.target.style.color = '';
+                }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>

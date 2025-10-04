@@ -723,6 +723,19 @@ img {
     text-decoration: underline;
 }
 
+/* Email styling to make it look clickable */
+.email-address {
+    color: var(--accent-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.email-address:hover {
+    color: #6b5a40;
+    text-decoration: underline;
+}
+
 /* Map container with responsive width and spacing */
 .map-section {
     max-width: 1200px; /* Maximum width for larger screens */
