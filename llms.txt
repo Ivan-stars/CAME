@@ -1,0 +1,37 @@
+# Camenae Asia
+
+> Camenae Asia is a Hong Kong company founded in 2009. It curates fine food and wine trading, digital branding and growth, professional academy and training, and event production with spatial operations. Its tagline is "the art of quality living".
+
+Canonical website: https://www.camehk.com
+English: https://www.camehk.com/en/
+繁體中文: https://www.camehk.com/tc/
+
+## Key facts
+
+- Legal / brand name: Camenae Asia (also known as CA.ME)
+- Founded: 2009
+- Headquarters: Rm A, 8/F., Yee Tak Fty Bldg., 42 Wing Hong St., Lai Chi Kok, Hong Kong
+- Email: cs@camehk.com
+- Business hours: Monday–Friday, 09:00–18:00 HKT
+- Service areas: Hong Kong and mainland China
+- Four core practices: global sourcing and refined taste; holistic digital brand building; professional training; events and spatial experiences
+- Retail brand: abc store, an omnichannel gourmet food and wine store with a WeChat mini program
+
+## Primary pages
+
+- About Camenae Asia: https://www.camehk.com/en/about/ (Chinese: https://www.camehk.com/tc/about/)
+- Four core practices: https://www.camehk.com/en/our-works/ (Chinese: https://www.camehk.com/tc/our-works/)
+- Global sourcing and refined taste: https://www.camehk.com/en/our-works/global-trade/
+- Holistic digital brand building: https://www.camehk.com/en/our-works/digital-branding/
+- Professional academy and training: https://www.camehk.com/en/our-works/academy-training/
+- Events and spatial experiences: https://www.camehk.com/en/our-works/events-spatial/
+- Omnichannel store / abc store: https://www.camehk.com/en/e-commerce/ (Chinese: https://www.camehk.com/tc/e-commerce/)
+- Frequently asked questions: https://www.camehk.com/en/contact/ (Chinese: https://www.camehk.com/tc/contact/)
+- Newsroom: https://www.camehk.com/tc/news/
+- Vinolougue (wine notes): https://www.camehk.com/tc/wine-notes/
+
+## Machine-readable metadata
+
+- Sitemap: https://www.camehk.com/sitemap.xml
+- Structured data: JSON-LD `@graph` in every indexed page head, with stable @id values for the Organization, WebSite and each WebPage.
+- Locale tags: `en` and `zh-Hant`; Chinese-only articles use `zh-Hant` with an `x-default` alias.

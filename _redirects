@@ -1,0 +1,13 @@
+# 301 redirects from the previous site's flat .html URLs.
+# The old site was English-only, so those pages land on their English
+# equivalents; the root redirect and the language switcher handle the rest.
+
+/index.html          /              301
+/about.html          /en/about      301
+/work-simple.html    /en/our-works  301
+/contact.html        /en/contact    301
+
+# Traditional Chinese moved from /zh/ to /tc/ before launch — keep any
+# bookmarked or previously shared links working.
+/zh                  /tc            301
+/zh/*                /tc/:splat     301
